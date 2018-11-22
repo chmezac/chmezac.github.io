@@ -35,11 +35,11 @@
         border-style: dashed;
         border-color: rgb(255, 255, 255);
     
-        background-image: url("https://goo.gl/SbNmXr");
+        background-image: url("../img/textura4.jpg");
         background-size: 20%;
     
         border: 30px solid;
-        border-image-source: url("https://goo.gl/R47mGA");
+        border-image-source: url("../img/newborder2.png");
         border-image-slice: 40;
     
         text-align: center;
@@ -256,11 +256,11 @@ input{
     border-style: dashed;
     border-color: rgb(255, 255, 255);
 
-    background-image: url("https://goo.gl/SbNmXr");
+    background-image: url("../img/textura4.jpg");
     background-size: 20%;
 
     border: 30px solid;
-    border-image-source: url("https://goo.gl/R47mGA");
+    border-image-source: url("../img/newborder2.png");
     border-image-slice: 40;
 
     text-align: center;
@@ -317,11 +317,11 @@ color: rgb(0, 0, 0);
         border-style: dashed;
         border-color: rgb(255, 255, 255);
     
-        background-image: url("https://goo.gl/SbNmXr");
+        background-image: url("../img/textura4.jpg");
         background-size: 20%;
     
         border: 30px solid;
-        border-image-source: url("https://goo.gl/R47mGA");
+        border-image-source: url("../img/newborder2.png");
         border-image-slice: 40;
     
         text-align: center;

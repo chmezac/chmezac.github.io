@@ -4,7 +4,7 @@ body{
     text-align: justify;
     font-size: 18px;
     background-color: #e0e5f0;
-    background-image: url("https://goo.gl/2hhAHW"); 
+    background-image: url("../img/fondo3.jpg"); 
 }
 
 
@@ -20,7 +20,7 @@ body{
 
     height:50px;
     background-color:#003333da;
-    background-image: url("https://goo.gl/GGVvVE")
+    background-image: url("../img/lineasbanner2.png")
 }
 
 
@@ -150,11 +150,11 @@ body{
     border-color: rgb(255, 255, 255);
     border-radius: 5%;
 
-    background-image: url("https://goo.gl/SbNmXr");
+    background-image: url("../img/textura4.jpg");
     background-size: 20%;
 
     border: 70px solid;
-    border-image-source: url("https://goo.gl/R47mGA");
+    border-image-source: url("../img/newborder2.png");
     border-image-slice: 40;
 }
 

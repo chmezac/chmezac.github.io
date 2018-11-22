@@ -35,11 +35,11 @@
     
         border-color: rgb(255, 255, 255);
     
-        background-image: url("https://goo.gl/SbNmXr");
+        background-image: url("../img/textura4.jpg");
         background-size: 20%;
     
         border: 70px solid;
-        border-image-source: url("https://goo.gl/R47mGA");
+        border-image-source: url("../img/newborder2.png");
         border-image-slice: 40;
     }
 
@@ -60,7 +60,7 @@
         padding-left: 150px;
         border-color: rgb(234, 255, 251);
         border-style: dashed;
-        background-image: url("https://goo.gl/SbNmXr");
+        background-image: url("../img/textura4.jpg");
         border-radius: 5%;
 
         background-size: 10%;
@@ -300,7 +300,7 @@ footer{
         width: 100%;
         border-color: rgb(234, 255, 251);
         border-style: dashed;
-        background-image: url("https://goo.gl/SbNmXr");
+        background-image: url("../img/textura4.jpg");
         border-radius: 5%;
     
         background-size: 10%;
@@ -317,11 +317,11 @@ footer{
 
         border-color: rgb(255, 255, 255);
 
-        background-image: url("https://goo.gl/SbNmXr");
+        background-image: url("../img/textura4.jpg");
         background-size: 20%;
 
         border: 70px solid;
-        border-image-source: url("https://goo.gl/R47mGA");
+        border-image-source: url("../img/newborder2.png");
         border-image-slice: 40;
     }
 
@@ -347,7 +347,7 @@ footer{
         padding-left: 150px;
         border-color: rgb(234, 255, 251);
         border-style: dashed;
-        background-image: url("https://goo.gl/SbNmXr");
+        background-image: url("../img/textura4.jpg");
         border-radius: 5%;
 
         background-size: 10%;
