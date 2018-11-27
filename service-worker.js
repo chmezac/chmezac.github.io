@@ -1,4 +1,4 @@
-var CACHE_NAME = 'MisPerrisv4';
+var cacheName = 'MisPerrisv4';
 var filesToCache = [
     '/',
     '/index.html',
@@ -49,7 +49,7 @@ var filesToCache = [
 self.addEventListener( 'install', function( e ) {
   console.log( '[ServiceWorker] Install' );
   e.waitUntil(
-      caches.open( MisPerrisv3 ).then( function( cache ) {
+      caches.open( cacheName ).then( function( cache ) {
           console.log( '[ServiceWorker] Caching app shell' );
           return cache.addAll( filesToCache );
       } )
@@ -62,7 +62,7 @@ self.addEventListener( 'activate', function( e ) {
  e.waitUntil(
    caches.keys( ).then( function( keyList ) {
      return Promise.all( keyList.map( function( key ) {
-       if ( key !== MisPerrisv3 ) {
+       if ( key !== cacheName ) {
         console.log('[ServiceWorker] Removing old cache', key );
          return caches.delete( key );
        }
