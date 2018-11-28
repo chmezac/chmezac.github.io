@@ -6,7 +6,7 @@
 
     var loadData = function() {
         var xhttp = new XMLHttpRequest();
-        var url = "http://testperris3.pythonanywhere.com/perris/";
+        var url = "https://testperris3.pythonanywhere.com/perris/";
 
         xhttp.onreadystatechange = function() {
             if( this.readyState == 4 && this.status == 200 ){

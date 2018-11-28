@@ -1,10 +1,10 @@
-var cacheName = 'MisPerrisv4';
+var cacheName = 'MisPerrisv6';
 var filesToCache = [
     '/',
     '/index.html',
     '/entrar.html',
     '/registrar.html',
-    '/unirme.html',
+    '/listado.html',
     "/js/app.js",
     "/js/app2.js",
     "/js/main.js",
