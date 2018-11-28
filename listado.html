@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>AGREGAR PERRO - MIS PERRIS</title>
+    <title>LISTADO - MIS PERRIS</title>
 
     <link href="https://file.myfontastic.com/AVEWBsVH8FBhKrqar9Evj8/icons.css" rel="stylesheet">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -16,7 +16,6 @@
     <link href="css/main.css" rel="stylesheet">
     <link href="css/list.css" rel="stylesheet">
     <link href="css/movil.css" rel="stylesheet">
-
     <link rel="icon" href="img/favicon.png"/>
     
 
@@ -53,6 +52,7 @@
         <li><a class="menu__link" href="listado.html">&#128220; Listado de Perros</a></li>
         <li><a class="menu__link" href="registrar.html">&#128054; Registro de Perros</a></li>
         <li><a class="menu__link" href="entrar.html">&#128273; Entrar</a></li>
+
        </ul>   
       </nav>
   </div>
@@ -63,45 +63,26 @@
 
 <br>
 <section class="textos">
-    <h3 align='center'><b>REGISTRAR</b></h3> 
-    <p align='center'>Por favor, indica los datos que aparecen a continuación para registrar a tu perro.</p>
+    <h3 align='center'><b>LISTADO DE PERROS INGRESADOS</b></h3> 
+    <p align='center'>A continuación, se mostrarán los perros ingresados y registrados.</p>
 <br>
-    <form align='center' method="post">
+<br>
+<main>
+        <p align='center'>Buscar por <b>"Estado":</b></p>
+    <select id="perrisColorFilter" class="perrisColorFilter">
+        <option value="Rescatado">Rescatado</option>
+        <option value="Adoptado">Adoptado</option>
+        <option value="Disponible">Disponible</option>
+    </select>
 
+    <br>
+    <br>
 
-        <div class="item-formulario" id="listado">
-            
-            <form method="post" action="#" role="registrar">
+    <div id="bearsContainer" class="bearsContainer">
+        
+    </div>
+</main>
 
-                <b>Nombre:</b>
-                <input id="name" type="text" class="form-control input-lg">
-                <br>
-
-                <b>Raza:</b>
-                <input id="name" type="text" class="form-control input-lg">
-                <br>
-
-                <b>Descripción:</b>
-                <input id="name" type="text" class="form-control input-lg">
-                <br>
-
-                <b>Estado:</b>
-                <select name="comuna" class="form-control input-lg">
-                    <option>Rescatado</option>  
-                    <option>Adoptado</option>
-                    <option>Rescatado</option>
-                </select>
-                <br>
-
-                <b>Foto:</b>
-                <input name="subirfoto1" type="file" id="imagen" class="form-control input-lg">
-                <br>
-                <br>
-            <button type="submit">REGISTRAR</button>
-            </form> -->
-        </div>
-
-    </form>
 </section>
 
 
@@ -135,7 +116,8 @@
 <!-- JavaScript -->
 <script src="js/main.js"></script>
 <script src="js/app.js"></script>
+<script src="js/app2.js"></script>
 <script src="/service-worker.js"></script>
-<script src="js/jsonParse.js"></script>
 </body>
 </html>
+
