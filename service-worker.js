@@ -6,6 +6,7 @@ var filesToCache = [
     '/registrar.html',
     '/unirme.html',
     "/js/app.js",
+    "/js/app2.js",
     "/js/main.js",
     "/css/carrusel.css", 
     "/css/f_movil.css", 
