@@ -30,12 +30,15 @@
             margin-left: 1px;
        }
 
-
-
        iframe{
            width: 235px;
            height: 235px;
        }
+
+       .main-nav {
+        grid-column: col-start / span 12;
+        grid-row: 12 / 4;
+      }
 }
 
 
@@ -75,6 +78,12 @@
     width: 270px;
     height: 270px;
     }
+
+    .main-nav {
+        grid-column: col-start / span 12;
+        grid-row: 12 / 4;
+      }
+    
 }
 
 
@@ -104,10 +113,14 @@
    }
 
    iframe{
-        width: 250px;
+        width: 300px;
         height: 250px;
-
     }
+
+    .main-nav {
+        grid-column: col-start / span 12;
+        grid-row: 12 / 4;
+      }
 }
 
 
@@ -140,6 +153,11 @@
     width: 280px;
     height: 250px;
     }   
+
+    .main-nav {
+        grid-column: col-start / span 12;
+        grid-row: 12 / 4;
+      }
 }
 
 /*IPHONE 6/7/8 PLUS*/
@@ -154,6 +172,11 @@
     width: 310px;
     height: 270px;
     }
+
+    .main-nav {
+        grid-column: col-start / span 12;
+        grid-row: 12 / 4;
+      }
 }
 
 
