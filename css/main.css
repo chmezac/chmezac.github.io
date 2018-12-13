@@ -102,7 +102,6 @@ body{
     padding: 10px;
     display:block;
     margin:auto;
-
 }
 
 
@@ -214,6 +213,11 @@ p{
     justify-content: space-between;   
 }
 
+.textos h3, .content h3, .content b{
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 5px rgb(17, 0, 255);
+    font-family: "Calibri";
+}
 
 .logo, .icon-bars{
     margin: 5px;
@@ -320,11 +324,41 @@ p{
         text-align: center;
     }
     
-    }
+}
 
     @media(min-width:1280px){
         .contenedor{
             width: 1200px;
         }
+    }
+
+
+    .ProductosContainer {
+        width: 100%;
+    
+    }
+    
+    .ProductoContainer {
+        padding: 15px;
+        border-radius: 10px;
+        margin: 10px;
+        border: 2px rgb(255, 255, 255) dotted;
+        background-color: rgba(11, 4, 27, 0.671);
+        text-align: center;
+    }
+    
+    .ProductoContainer img {
+        border-radius: 10px;
+    }
+    
+    
+    .tiendaTipoFilter {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
     }
 

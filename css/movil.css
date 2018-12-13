@@ -87,7 +87,7 @@
 
     .icon-bars {
         position: relative;
-        right: 355px;
+        right: 300px;
     }
 
     .menu__link {
@@ -115,12 +115,12 @@
 @media only screen and (min-width:375px) and (max-width:667px) {
     .logo{
         position: absolute;
-        padding-left: 120px;
+        padding-left: 90px;
     }
 
     .icon-bars {
         position: relative;
-        right: 355px;
+        right: 320px;
     }
 
     .menu__link {
@@ -144,6 +144,11 @@
 
 /*IPHONE 6/7/8 PLUS*/
 @media only screen and (min-width:414px) and (max-width:736px) {
+
+    .icon-bars {
+        position: relative;
+        right: 320px;
+    }
 
    iframe{
     width: 310px;
