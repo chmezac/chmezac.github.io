@@ -7,6 +7,8 @@
 
     <title>TIENDAS INFORMATIC</title>
     <link rel="icon" href="img/icon.png"/>
+
+    <link rel="manifest" href="/manifest.json">
     
     <link rel="stylesheet" href="css/main.css" >
     <link rel="stylesheet" href="css/movil.css" >
@@ -62,9 +64,38 @@
     <!--MAIN-->
     <article class="content">
 
+            <section class="textos">
+                    <h3 align='center'><b>LISTADO DE PRODUCTOS INGRESADOS</b></h3> 
+                    <p align='center'>A continuación, se mostrarán los productos ingresados y registrados.</p>
+                <br>
+                <br>
+                <main>
+                        <p align='center'>Buscar por <b>"Tipo":</b></p>
+                    <select id="tiendaTipoFilter" class="tiendaTipoFilter">
+                        <option value="Notebooks">Notebooks</option>
+                        <option value="Tarjeta_Grafica">Tarjeta_Grafica</option>
+                        <option value="Audifonos">Audifonos</option>
+                        <option value="Computadores">Computadores</option>
+                    </select>
+                
+                    <br>
+                    <br>
+                
+                    <div id="ProductosContainer" class="ProductosContainer">
+                        
+                    </div>
+                </main>
+                
+                </section>
+
+
+
+
+
+
 
       </article> 
-<!--MAIN-->
+    <!--MAIN-->
 
 
      <!--ASIDE-->   
@@ -98,6 +129,10 @@
     
     </div>
 
+
+    <script src="js/main.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/app2.js"></script>
+    <script src="/service-worker.js"></script>
 </body>
-<script src="js/main.js"></script>
 </html>
