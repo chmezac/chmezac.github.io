@@ -26,13 +26,6 @@
         ProductosContainer.innerHTML = "";
 
         for( let producto of productos ) {
-
-//nombre_producto
-//descripcion
-//precio
-//tipo
-//img
-
             var ProductoContainer = document.createElement( "div" );
 
             var txtProdName = document.createElement( "h3" );

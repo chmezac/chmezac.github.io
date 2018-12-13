@@ -158,9 +158,8 @@
  @media only screen and (min-width:768px) and (max-width:1024px) {
     
     .logo{
-        position: absolute;
-        padding-left: 290px;
-        top: 1px;
+        width: 1px;
+        height: 1px;
     }
 
     .contenedor{
@@ -187,7 +186,36 @@
         text-align: center;
     }
 
-    
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(12, [col-start] 1fr);
+        grid-gap: 150px;
+      }
+      .wrapper > * {
+        grid-column: col-start / span 12;
+      }
 
-}
+    .main-nav {
+        grid-column: col-start / span ;
+        grid-row: 2 ;
+      }
+      .content {
+        grid-column: col-start / span ;
+        grid-row: 3;
+      }
+      .aside {
+        grid-column: col-start  / span ;
+        grid-row: 4;
+      }
+      
+      .main-footer {
+        grid-column: col-start / span ;
+      }
+      iframe{
+        width: 50%;
+        height: 235px;
+        margin-left: 25%; 
+    }
+    
+    }
 
