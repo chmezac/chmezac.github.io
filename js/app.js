@@ -1,4 +1,4 @@
-(  function() {
+( function() {
     var app = {
         tiendaTipoFilter: document.getElementById( "tiendaTipoFilter" ),
         ProductosList: [],
@@ -27,7 +27,6 @@
 
         for( let producto of productos ) {
             var ProductoContainer = document.createElement( "div" );
-
             var txtProdName = document.createElement( "h3" );
             var txtProdDescription = document.createElement( "p" );
             var txtProdPrecio = document.createElement( "p" );
@@ -39,7 +38,6 @@
 
             imgProd.src = producto.imageUrl;
             imgProd.alt = producto.nombre_producto;
-
             txtProdDescription.innerHTML = "<b>Descripción: </b>" +  producto.descripcion;
             txtProdTipo.innerHTML = "<b>Tipo: </b>" +  producto.tipo;
             txtProdPrecio.innerHTML = "<b>Precio: </b>" + producto.precio;
